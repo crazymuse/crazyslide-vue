@@ -1,4 +1,5 @@
 # crazyslide-vue
+Steps
 
 ## Project setup
 ```
