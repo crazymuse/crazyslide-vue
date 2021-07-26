@@ -1,24 +1,37 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="reveal">
+  <div class="slides">
+      <section>
+						<h2>Basement Level 1</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+      </section>
+      <section>
+						<h2>Basement Level 2</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+      </section>
+      <section>
+          <TwoSlider></TwoSlider>                  
+      </section>
+    </div>      
   </div>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TwoSlider from './components/TwoSlider.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    TwoSlider
+    //HelloWorld    
+  },
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Poppins, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
