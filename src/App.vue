@@ -12,6 +12,11 @@
       <section>
           <TwoSlider></TwoSlider>                  
       </section>
+      <section>
+          <CrazyHierarcyVerticalView></CrazyHierarcyVerticalView>
+      </section>
+      <section>
+    <iframe src="https://giphy.com/embed/Xg9xtAwoxn3nEQEz4Y" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/AppleTV-ted-lasso-tedlasso-Xg9xtAwoxn3nEQEz4Y">via GIPHY</a></p>    </section>
     </div>      
   </div>
   
@@ -19,11 +24,13 @@
 
 <script>
 import TwoSlider from './components/TwoSlider.vue'
+import CrazyHierarcyVerticalView from './components/CrazyHierarchyVerticalView.vue'
 
 export default {
   name: 'App',
   components: {
-    TwoSlider
+    TwoSlider,
+    CrazyHierarcyVerticalView
     //HelloWorld    
   },
 }
